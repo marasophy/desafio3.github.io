@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center; /* alinha horizontal */
+  align-items: center;     /* alinha vertical */
+  height: 100vh;           /* ocupa toda a altura da tela */
+  margin: 0;               /* remove margens padrão */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/bg-repeat.jpg");
+  width: 800px;
+  height: 402px;
+  padding: 40px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; 
+  width: 100%;
+}
+
+/* --- Lado do texto --- */
+.texto-container {
+  color: white;
+  max-width: 40%;
+}
+
+h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  width: 287px; 
+}
+
+.texto {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  width: 300px;
+}
+
+formulario span {
+    display: block;          
+    color: #f52e2e;          
+    font-size: 0.85rem;      
+    margin-top: 4px;         
+    font-weight: 500;        
+}
+
+.formulario-container {
+  width: 340px;
+  background: #FFF;
+  padding: 20px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario button {
+  width: 298px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-bottom: 10px; 
+  padding: 8px;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+/* Campo de mensagem maior */
+.formulario textarea {
+  height: 100px;
+  resize: none; 
+}
+
+/* Botão */
+.formulario button {
+  height: 41px;
+  background: #3CCC87;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.formulario .campos {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px 0;
+}

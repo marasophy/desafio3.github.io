@@ -1,9 +1,9 @@
 body {
   display: flex;
-  justify-content: center; /* alinha horizontal */
-  align-items: center;     /* alinha vertical */
-  height: 100vh;           /* ocupa toda a altura da tela */
-  margin: 0;               /* remove margens padrão */
+  justify-content: center;
+  align-items: center;     
+  height: 100vh;           
+  margin: 0;              
 }
 .container {
   display: flex;
@@ -23,7 +23,7 @@ body {
   width: 100%;
 }
 
-/* --- Lado do texto --- */
+
 .texto-container {
   color: white;
   max-width: 40%;
@@ -74,13 +74,12 @@ formulario span {
   font-size: 14px;
 }
 
-/* Campo de mensagem maior */
 .formulario textarea {
   height: 100px;
   resize: none; 
 }
 
-/* Botão */
+
 .formulario button {
   height: 41px;
   background: #3CCC87;
